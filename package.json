@@ -1,7 +1,6 @@
 {
   "type": "module",
   "devDependencies": {
-    "babel-eslint": "^10.1.0",
     "chai": "^4.2.0",
     "eslint": "^8.54.0",
     "eslint-config-prettier": "^9.0.0",
