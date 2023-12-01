@@ -14,8 +14,9 @@
     "sinon": "^17.0.1"
   },
   "scripts": {
-    "test": "mocha -r esm \"./{,!(node_modules)/**}/*test.js\"",
+    "test": "mocha \"./{,!(node_modules)/**}/*test.js\"",
     "lint": "eslint .",
-    "day0": "node .day00-template/index.js"
+    "day0": "node .day00-template/index.js",
+    "day1": "node day01-trebuchet/index.js"
   }
 }
