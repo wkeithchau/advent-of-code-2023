@@ -1,7 +1,6 @@
 {
   "type": "module",
   "devDependencies": {
-    "babel-eslint": "^10.1.0",
     "chai": "^4.2.0",
     "eslint": "^8.54.0",
     "eslint-config-prettier": "^9.0.0",
@@ -14,8 +13,9 @@
     "sinon": "^17.0.1"
   },
   "scripts": {
-    "test": "mocha -r esm \"./{,!(node_modules)/**}/*test.js\"",
+    "test": "mocha \"./{,!(node_modules)/**}/*test.js\"",
     "lint": "eslint .",
-    "day0": "node .day00-template/index.js"
+    "day0": "node .day00-template/index.js",
+    "day1": "node day01-trebuchet/index.js"
   }
 }
