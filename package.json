@@ -18,6 +18,7 @@
     "lint": "eslint .",
     "day0": "node .day00-template/index.js",
     "day1": "node day01-trebuchet/index.js",
-    "day2": "node day02-cube-conundrum/index.js"
+    "day2": "node day02-cube-conundrum/index.js",
+    "day3": "node day03-gear-ratios/index.js"
   }
 }
