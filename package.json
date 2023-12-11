@@ -17,6 +17,7 @@
     "test": "mocha \"./{,!(node_modules)/**}/*test.js\"",
     "lint": "eslint .",
     "day0": "node .day00-template/index.js",
-    "day1": "node day01-trebuchet/index.js"
+    "day1": "node day01-trebuchet/index.js",
+    "day2": "node day02-cube-conundrum/index.js"
   }
 }
