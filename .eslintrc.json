@@ -15,11 +15,12 @@
     }
   },
   "extends": [
+    "prettier",
+    "standard",
+    "plugin:chai-friendly/recommended",
     "plugin:import/recommended",
     "plugin:mocha/recommended",
-    "plugin:promise/recommended",
-    "prettier",
-    "standard"
+    "plugin:promise/recommended"
   ],
   "parserOptions": {
     "ecmaFeatures": {
@@ -28,7 +29,13 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": ["import", "mocha", "promise", "simple-import-sort"],
+  "plugins": [
+    "chai-friendly",
+    "import",
+    "mocha",
+    "promise",
+    "simple-import-sort"
+  ],
   "rules": {
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error",
