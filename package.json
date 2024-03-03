@@ -20,6 +20,7 @@
     "day1": "node day01-trebuchet/index.js",
     "day2": "node day02-cube-conundrum/index.js",
     "day3": "node day03-gear-ratios/index.js",
-    "day4": "node day04-scratchcards/index.js"
+    "day4": "node day04-scratchcards/index.js",
+    "day5": "node day05-seed-fertilizer/index.js"
   }
 }
